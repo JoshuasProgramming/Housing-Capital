@@ -1,0 +1,138 @@
+/* Importing fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+/* Reset page in CSS */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div, section, span, ul, li, a{
+    box-sizing: border-box;
+}
+
+/*Font family for paragraghs*/
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:35px;
+    margin:-6px;
+}
+
+/*Navigation bar BEGINS*/
+header{
+    width:95%;
+    height: 20px;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: transparent;
+    color:whitesmoke;
+}
+
+.navbar{
+    text-align:right;
+}
+
+.navbar li{
+    list-style: none;
+    display:inline-block;
+    width:150px;
+    text-align: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar li a:hover{
+    text-shadow: 2px 2px 2px white;
+}
+
+.landing-direct{
+    text-decoration:none;
+    color:black;
+}
+/*Navigation bar ENDS*/
+
+/* Hero Section BEGINS*/
+section{
+    width:100%;
+    float: left;
+    height: 100vh;
+    position: fixed;
+}
+
+.top{
+    background-image: url(image1.jpg);
+    background-size:cover;
+    min-height: 50%;
+}
+
+.home-header{
+    position: absolute;
+    top:44%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    color:rgb(0, 0, 0);
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin:0px 1px;
+    text-shadow: 5px 5px 5px white;
+}
+
+.search-houses-landingpage-input{
+    border-radius:15px;
+    width:800px;
+    height:80px;
+    margin:340px 280px;
+    font-size:30px;
+    text-align:center;
+    border:none;
+    border:1px solid white;
+    outline:none;
+    color:black;
+    font-weight: bold;
+    background: transparent;
+}
+
+.let-me{
+    color:white;
+    text-decoration: none;
+}
+
+button{
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+    background:black;
+    padding:15px;
+    border: 0px solid white;
+    opacity: 85%;
+    border-radius: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity:100%;
+}
+
+button:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+/*Hero Section ENDS*/
+
