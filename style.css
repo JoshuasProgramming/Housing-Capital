@@ -117,7 +117,7 @@ button{
     transform: translate(-50%, -50%);
     color:whitesmoke;
     font-size: 35px;
-    font-family: 'Bangers', cursive;
+    font-family: 'Montserrat', sans-serif;
     background:black;
     padding:15px;
     border: 0px solid white;
@@ -136,3 +136,185 @@ button:active{
 
 /*Hero Section ENDS*/
 
+
+
+/*Register Form BEGINS*/
+.register-name, .register-email, .register-password{
+    width:420px;
+    height:70px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    font-weight:bold;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin:10px 1px;
+}
+
+
+.register-form{
+    width:427px;
+    height:450px;
+    position: absolute;
+    margin: 80px 470px;
+    box-shadow: 1px 1px 11px black;
+    border-radius: 25px;
+    background: black;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+}
+
+.register-btn{
+    position: absolute;
+    top:85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background:rgb(246, 248, 253);
+    padding:15px;
+    border: 0px solid white;
+    opacity: 80%;
+    border-radius: 10px;
+    width:400px;
+    height:80px;
+}
+
+.register-btn:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.register-btn:active{
+    box-shadow: 1px 1px 16px white;
+}
+
+/*Register Form ENDS*/
+
+/* Thank You Message Page BEGINS */
+
+.thanks-header{
+    position: absolute;
+    top:50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color:rgb(0, 0, 0);
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px 30px;
+    text-shadow: 2px 2px 2px white;
+}
+
+.Update-cta{
+    position: absolute;
+    top:85%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    background:black;
+    padding:15px;
+    border: 0px solid white;
+    opacity: 85%;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.Update-cta:hover{
+    opacity:100%;
+}
+
+.Update-cta:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+.Delete-cta{
+    position: absolute;
+    top:85%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    color:whitesmoke;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    background:black;
+    padding:15px;
+    border: 0px solid white;
+    opacity: 85%;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.Delete-cta:hover{
+    opacity:100%;
+}
+
+.Delete-cta:active{
+    box-shadow: 1px 1px 11px black;
+}
+
+/* Thank You Message Page ENDS */
+
+/*Update account page BEGINS*/
+
+.account-header{
+    position: absolute;
+    top:50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px 30px;
+    text-shadow: 20px 20px rgb(0, 0, 0);
+}
+
+.update-name, .update-email, .update-password, .update-password2{
+    width:400px;
+    height:50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    font-weight:bold;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.update-form{
+    width:427px;
+    height:450px;
+    position: absolute;
+    margin: 150px 470px;
+    box-shadow: 1px 1px 11px black;
+    border-radius: 25px;
+    background: black;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+}
+
+.update-btn{
+    position: absolute;
+    top:85%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background:rgb(255, 255, 86);
+    padding:15px;
+    border: 0px solid white;
+    opacity: 80%;
+    border-radius: 30px;
+    width:400px;
+    height:50px;
+}
+
+.update-btn:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.update-btn:active{
+    box-shadow: 1px 1px 16px white;
+}
